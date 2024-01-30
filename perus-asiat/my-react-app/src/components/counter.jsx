@@ -1,30 +1,30 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
-function Counter() {
-    const [count, setCount] = useState(0)
-    const clickspersecond = count;
+function Counter(props) {
+  // Lisäsin props initialCount, se auttaa palauttamaan alkuperäisen arvon kun painetaan reset.
+  const { initialCount } = props; 
+  const [count, setCount] = useState(initialCount); 
 
-    function add(){
-        setCount((count) => count + 1);
-    }
-    function remove(){
-        setCount((count) => count - 1);
-    }
-    function reset(){
-        setCount((count) => count = 0);
-    }
+  function add() {
+    setCount(count + 1); 
+  }
 
-    return (
-        <>
-        <h1>{count}</h1>
-        <button onClick={add}>+</button>
-        <button onClick={remove}>-</button>
-        <button onClick={reset}>reset</button>
-        <p>Your got {clickspersecond} clicks per second!</p>
-        </>
-    );
+  function remove() {
+    setCount(count - 1); 
+  }
+  // Palauttaa nyt alkuperäisen arvon eli initialCount joka on propsina.
+  function reset() {
+    setCount(initialCount); 
+  }
+
+  return (
+    <>
+      <h1>{count}</h1>
+      <button onClick={add}>+</button>
+      <button onClick={remove}>-</button>
+      <button onClick={reset}>reset</button>
+    </>
+  );
 }
-
 
 export default Counter;
