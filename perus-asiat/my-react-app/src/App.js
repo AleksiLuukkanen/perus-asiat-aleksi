@@ -1,15 +1,12 @@
-import './App.css';
-import Counter from './components/counter';
-
+import React from 'react';
+import RollDice from './components/arpakuutio.jsx'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Counter/>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+             <RollDice></RollDice> 
+        </div>
+    );
 }
 
 export default App;
