@@ -1,5 +1,5 @@
 import React from 'react';
-import RollDice from './components/arpakuutio.jsx'
+import RollDice from './components/timer.jsx'
 
 function App() {
     return (
