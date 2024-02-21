@@ -23,8 +23,7 @@ function Ristinolla() {
         <button onClick={Pelaus} className="kuutio">X</button>
         </div>
         </>
-
-      );
+    );
 }
 
 export default Ristinolla;
