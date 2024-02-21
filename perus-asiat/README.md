@@ -3,8 +3,8 @@ js/css/html
 
 # -- Komentoja --
 - cd .\kansion-nimi\
-- npx create-react-app kansion-nimi
-- npm start 
+- npx create-react-app kansion-nimi (Luo react.js projektin)
+- npm start (Pyörittää projektia)
 
 # -- React JS --
 
