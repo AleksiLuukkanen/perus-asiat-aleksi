@@ -27,3 +27,4 @@ function Ristinolla() {
 }
 
 export default Ristinolla;
+// Jatkan lomalla, kaikki muu keskeneräinen myös mainittu readme

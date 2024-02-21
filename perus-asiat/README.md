@@ -27,4 +27,12 @@ Funktiot:
 - Komponentteja voi käyttää kun ne liittää App.js, esimerkiksi näin:
 import Ristinolla from './components/ristinolla.jsx';
 
+Lomalle tehtäväksi/pitää ottaa selvää:
+- Ristinolla
+- Map, filter, find + includes
+- Destructuring
+- Concet
+- Rest + speed operator
+- Promises
+
 

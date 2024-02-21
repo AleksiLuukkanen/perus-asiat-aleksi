@@ -5,7 +5,8 @@ import Counter from './components/counter.jsx';
 import Timer from './components/timer.jsx';
 import Dice from './components/arpakuutio.jsx';
 import Ristinolla from './components/ristinolla.jsx';
-import Ristinolla from './components/list_keys.jsx';
+import HedelmäLista from './components/list_keys.jsx';
+
 
 function App() {
     return (
@@ -16,9 +17,11 @@ function App() {
              <Timer/>
              <Dice/>
              <Ristinolla/>
+             <HedelmäLista/>
              </header>
         </div>
     );
 }
 
 export default App;
+// README:ssä lukee mitä jäi keskeneräiseksi/jatkan lomalla.
