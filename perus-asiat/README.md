@@ -22,3 +22,9 @@ Ominaisuuksia:
 - React Dom
 - React Komponentti
 
+Funktiot:
+- React funktion nimi pitää olla aina isolla alkukirjaimella.
+- Komponentteja voi käyttää kun ne liittää App.js, esimerkiksi näin:
+import Ristinolla from './components/ristinolla.jsx';
+
+
