@@ -3,23 +3,27 @@ import React, { useState } from "react";
 
 
 function timer() {
-    let currentTime = 0;
+    const [time, setTime] = useState(0);
 
-    
+    function add () {
+        setTime(time + 1);
+    }
     function stop() {
         
     }
 
     function start() {
+        setTimeout(add, 1000)
     }
 
     function reset() {
+        
     }
                                                                          
     return (          
-        <div>                                               
+        <div>                                        
             <h1>TIMER</h1>                                              
-            <p>{currentTime}</p>
+            <p>{time}</p>
             <button onClick={start}>START</button>                            
             <button onClick={stop}>STOP</button>
             <button onClick={reset}>RESET</button>

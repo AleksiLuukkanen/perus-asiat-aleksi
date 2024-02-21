@@ -1,10 +1,17 @@
+import "./App.css";
 import React from 'react';
-import RollDice from './components/timer.jsx'
+import Counter from './components/counter.jsx';
+import Timer from './components/timer.jsx';
+import Dice from './components/arpakuutio.jsx';
 
 function App() {
     return (
-        <div>
-             <RollDice></RollDice> 
+        <div className="App">
+             <header className="App-header">
+             <Counter></Counter>
+             <Timer></Timer>
+             <Dice></Dice>
+             </header>
         </div>
     );
 }

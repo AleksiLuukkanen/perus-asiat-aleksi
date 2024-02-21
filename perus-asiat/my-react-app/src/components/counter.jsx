@@ -4,6 +4,7 @@ function Counter(props) {
   // Lisäsin props initialCount, se auttaa palauttamaan alkuperäisen arvon kun painetaan reset.
   const { initialCount } = props; 
   const [count, setCount] = useState(initialCount); 
+  
 
   function add() {
     setCount(count + 1); 
