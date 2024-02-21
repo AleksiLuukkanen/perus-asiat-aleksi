@@ -1,21 +1,16 @@
 import React, { useState } from "react";
 
-function Counter(props) {
-  // Lisäsin props initialCount, se auttaa palauttamaan alkuperäisen arvon kun painetaan reset.
-  const { initialCount } = props; 
-  const [count, setCount] = useState(initialCount); 
-  
+function Counter() {
+  const [count, setCount] = useState(0);
 
-  function add() {
-    setCount(count + 1); 
+  function add(){
+    setCount(count + 1);
   }
-
-  function remove() {
-    setCount(count - 1); 
+  function remove(){
+    setCount(count - 1);
   }
-  // Palauttaa nyt alkuperäisen arvon eli initialCount joka on propsina.
-  function reset() {
-    setCount(initialCount); 
+  function reset(){
+    setCount(0);
   }
 
   return (

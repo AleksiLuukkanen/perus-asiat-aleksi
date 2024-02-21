@@ -4,10 +4,7 @@ js/css/html
 # -- Komentoja --
 - cd .\kansion-nimi\
 - npx create-react-app kansion-nimi
-- npm start  
-
-
-# -- Java Script -- 
+- npm start 
 
 # -- React JS --
 
