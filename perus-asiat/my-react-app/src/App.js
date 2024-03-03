@@ -6,6 +6,8 @@ import Timer from './components/timer.jsx';
 import Dice from './components/arpakuutio.jsx';
 import Ristinolla from './components/ristinolla.jsx';
 import HedelmäLista from './components/list_keys.jsx';
+import Autot from "./components/find_includes.jsx";
+import Haetieto from "./components/promises.jsx";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
              <Dice/>
              <Ristinolla/>
              <HedelmäLista/>
+             <Autot/>
+             <Haetieto/>
              </header>
         </div>
     );
